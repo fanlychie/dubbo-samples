@@ -2,10 +2,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.fanlychie</groupId>
-    <artifactId>duboo-quickstart-sample</artifactId>
+    <artifactId>dubbo-quickstart-sample</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<name>duboo-quickstart-sample</name>
+	<name>dubbo-quickstart-sample</name>
 	<description>Sample project for Dubbo</description>
     <url>http://maven.apache.org</url>
     <modules>
