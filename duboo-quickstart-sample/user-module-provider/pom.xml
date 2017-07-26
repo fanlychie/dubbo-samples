@@ -30,6 +30,7 @@
     </dependencies>
     <build>
         <plugins>
+            <!-- 打包配置, 输出可执行的 jar 包 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-assembly-plugin</artifactId>

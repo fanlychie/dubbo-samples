@@ -27,6 +27,7 @@
 			<dependency>
 				<groupId>com.alibaba</groupId>
 				<artifactId>dubbo</artifactId>
+				<!-- dubbo依赖的spring版本（2.5）较低, 排除此依赖, 使用自己的spring版本 -->
 				<exclusions>
 					<exclusion>
 						<groupId>org.springframework</groupId>
