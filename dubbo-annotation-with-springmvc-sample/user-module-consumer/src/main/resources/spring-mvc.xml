@@ -10,10 +10,13 @@
        http://code.alibabatech.com/schema/dubbo
        http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
+    <!-- 提供方应用信息，用于计算依赖关系 -->
     <dubbo:application name="user-module-consumer"/>
 
+    <!-- 使用ZK注册中心暴露服务地址 -->
     <dubbo:registry address="zookeeper://127.0.0.1:2181"/>
 
+    <!-- 扫描注解包路径，多个包用逗号分隔 -->
     <dubbo:annotation package="org.fanlychie.controller"/>
 
     <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping">
