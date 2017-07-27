@@ -1,11 +1,8 @@
 package org.fanlychie.service;
 
-import org.springframework.stereotype.Service;
-
 /**
  * Created by fanlychie on 2017/7/26.
  */
-@Service
 public class UserServiceImpl implements UserService {
 
     @Override
